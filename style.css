@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(0, 247, 255);
+}
+
+#show_sketch{
+    margin-top: 3px;
+    float: right;
+}
+
+#sketch-drawn{
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+h1{
+    background-color:rgb(145, 255, 0);
+    padding-right: -20px;
+}
+
+#confidence{
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+#score{
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+    margin-left: 10px;
+
+}
+
+#sketch-to-be-drawn{
+    color: yellow;
+    font-size: 30px;
+    font-style: unset;
+}
+
+#timer{
+    float: right;
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+canvas{
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: darkgreen;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#clear{
+    margin-top: 350px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
